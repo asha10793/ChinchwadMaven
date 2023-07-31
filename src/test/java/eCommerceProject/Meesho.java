@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Meesho {
   @Test
-  public void EC_123_MeeshoTest() throws InterruptedException {
+  public void EC_123_meeshoTest() throws InterruptedException {
 	  System.setProperty("webdriver.chrome.driver", "D:\\VelocityTraining\\Setups\\ChromeDriver107_SeleniumFile\\chromedriver.exe");
 	  WebDriver driver = new ChromeDriver();
 	  Reporter.log("opening meesho", true);
